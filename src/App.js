@@ -5,7 +5,6 @@ import ProductList from "./components/ProductList";
 import Default from "./components/Default";
 import Cart from "./components/cart";
 import Details from "./components/Details"
-import Store from "./components/Store"
 import Modal from './components/Modal'
 
 class App extends Component {
