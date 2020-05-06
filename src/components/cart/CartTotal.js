@@ -18,15 +18,15 @@ export default function CartTotal({ value }) {
                         </Link>
                         <h5 >
                             <span className="text-title">subTotal</span>
-                            <strong>${cartSubTotal}</strong>
+                            <strong>₹{cartSubTotal}</strong>
                         </h5>
                         <h5 >
                             <span className="text-title">Tax:</span>
-                            <strong>${cartTax}</strong>
+                            <strong>₹{cartTax}</strong>
                         </h5>
                         <h5 >
                             <span className="text-title">carttotal</span>
-                            <strong>${cartTotal}</strong>
+                            <strong>₹{cartTotal}</strong>
                         </h5>
                     </div>
                 </div>
