@@ -22,8 +22,8 @@ export default class Product extends Component {
                                     <img src={img} alt="product" className="card-img-top" />
                                 </Link>
                                 <button
-                                    className="cart-btn"
-                                    disabled={inCart ? true : false}
+                                    className=""
+                                    // disabled={inCart ? true : false}
                                     onClick={() => {
                                         value.addToCart(id);
                                         value.openModal(id);
@@ -109,7 +109,7 @@ const ProductWrapper = styled.div`
     border-radius: 0.5rem 0 0 0;
     transform:translate(100% ,100%);
 }
-.img-container:hover{
+.img-container:hover .cart-btn{
     transform: translate(0, 0);
 }
 }
