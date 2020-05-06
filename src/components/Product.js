@@ -22,7 +22,7 @@ export default class Product extends Component {
                                     <img src={img} alt="product" className="card-img-top" />
                                 </Link>
                                 <button
-                                    className=""
+                                    className="cart-btn"
                                     // disabled={inCart ? true : false}
                                     onClick={() => {
                                         value.addToCart(id);
@@ -98,16 +98,8 @@ const ProductWrapper = styled.div`
     transform: scale(1.2);
 }
 .cart-btn {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 0.4rem 0.8rem;
-    background: var(--lightBlue);
-    border:none;
-    color: var(--mainWhite);
-    font-size: 1.5rem;
-    border-radius: 0.5rem 0 0 0;
-    transform:translate(100% ,100%);
+    padding-bottom: 3px;
+    margin-top: 35px;
 }
 .img-container:hover .cart-btn{
     transform: translate(0, 0);
